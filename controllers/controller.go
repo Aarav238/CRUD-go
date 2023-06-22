@@ -15,7 +15,7 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/options"
 )
 
-const connectionString = "mongodb+srv://learncodeonline:hitesh@cluster0.humov.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+const connectionString = "mongodb://localhost:27017/Crud-go"
 const dbName = "netflix"
 const colName = "watchlist"
 
